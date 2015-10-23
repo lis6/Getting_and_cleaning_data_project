@@ -7,3 +7,6 @@ After download and unzip the data, change the R working directory to where the d
 
 Then you are ready to run the R script in this repo. 
 
+The details of the code please refer to the comments in the script and the codebook.
+
+The describe of each variables in the output results file is also in the codebook. 

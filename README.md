@@ -6,3 +6,4 @@ After download and unzip the data, change the R working directory to where the d
 /user/downloads/UCI HAR Dataset. Change the /user/downloads part as needed.
 
 Then you are ready to run the R script in this repo. 
+

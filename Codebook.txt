@@ -1,0 +1,48 @@
+Codebook
+
+read in the data
+read in the features as column name
+read in the original test and training data, three files per test and training
+
+combine the test and training data together as “test” and “train”
+combine all the data together to get the dataframe “merged”
+
+select all variable which name contain mean or std to list “selectedvars”
+add “subject” and “activity” to this list for subset the “merged” data frame
+
+subset the “merged” data frame by matching the column names, and stored as “selected”
+
+name each activity by using activity as factor
+the code is 
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+group the data frame by subject and activity, then calculate the mean of each variables, and stored in a new data frame named “means”
+
+write “means” as table in txt file.
+
+
+
+
+Code for results table
+
+Subject  30
+	The 30 subjects in the study
+
+activity 6
+	the activities that a subject performed in the study
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
+The rest variables please refer to the features_info.txt in the original dataset. In general, xx..mean indicates the mean of the feature xx , and xx..std indicates the standard deviation of the feature xx.
+
+Each entries in the table, expect the first two columns, is the average of the specific feature of the correspond subject performing the correspond activity.
